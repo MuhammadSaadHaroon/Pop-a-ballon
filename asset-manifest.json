@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Pop-a-ballon/static/css/main.f331b44e.css",
+    "main.js": "/Pop-a-ballon/static/js/main.0fa44c65.js",
+    "static/js/453.5e357385.chunk.js": "/Pop-a-ballon/static/js/453.5e357385.chunk.js",
+    "static/media/bg-music.mp3": "/Pop-a-ballon/static/media/bg-music.a48182dd556cb4dfc6a7.mp3",
+    "static/media/game-bg.jpg": "/Pop-a-ballon/static/media/game-bg.523df2d5896d39915ed5.jpg",
+    "static/media/pop.mp3": "/Pop-a-ballon/static/media/pop.3f85e778dab44c17c2df.mp3",
+    "index.html": "/Pop-a-ballon/index.html",
+    "main.f331b44e.css.map": "/Pop-a-ballon/static/css/main.f331b44e.css.map",
+    "main.0fa44c65.js.map": "/Pop-a-ballon/static/js/main.0fa44c65.js.map",
+    "453.5e357385.chunk.js.map": "/Pop-a-ballon/static/js/453.5e357385.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f331b44e.css",
+    "static/js/main.0fa44c65.js"
+  ]
+}
