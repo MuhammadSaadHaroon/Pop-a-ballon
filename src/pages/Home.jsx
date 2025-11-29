@@ -6,7 +6,7 @@ export function Home({ navigate }) {
   const dispatch = useDispatch();
 
   const handleStart = () => {
-    dispatch(resetGame()); // score/lives reset
+    dispatch(resetGame()); // Reset score/lives
     navigate("/game");
   };
 
