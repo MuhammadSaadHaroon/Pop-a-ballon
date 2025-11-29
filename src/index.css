@@ -1,13 +1,148 @@
+/* Global dark theme */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Arial', sans-serif;
+  background: #1e1e2f; /* dark purple-black */
+  color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ff66cc;
+  background: #2a2a3d;
+  color: #fff;
+  margin: 6px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background: #ff66cc; /* pink accent */
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #ff33aa;
+}
+
+.btn-secondary {
+  background: #8c2aff;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: #b366ff;
+}
+
+/* Navbar */
+.navbar {
+  background: #2a2a3d;
+  color: #fff;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ff66cc;
+}
+
+/* Auth container */
+.auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 24px;
+  background: #2a2a3d;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+/* Home container */
+.home-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #2a2a3d;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+/* Game page */
+.game-screen {
+  background: linear-gradient(to bottom, #1e1e2f, #2a2a3d);
+  min-height: 100vh;
+  position: relative;
+  padding-top: 80px;
+}
+
+/* Balloon */
+.balloon {
+  width: 50px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.1s;
+}
+
+.balloon.target {
+  border: 3px solid #ff66cc;
+}
+
+/* Lifelines */
+.lifelines .life {
+  border: 2px solid #ff66cc;
+}
+
+.lifelines .active {
+  background: #ff66cc;
+}
+
+.lifelines small {
+  color: #ccc;
+}
+
+/* Instructions box */
+.instructions-box {
+  background: #2a2a3d;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+/* Highscore container */
+.highscore-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #2a2a3d;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
 }
